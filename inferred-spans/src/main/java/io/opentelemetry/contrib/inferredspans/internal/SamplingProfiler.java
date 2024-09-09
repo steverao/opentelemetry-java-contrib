@@ -326,7 +326,7 @@ public class SamplingProfiler implements Runnable {
    * <p>This and {@link #onActivation} are the only methods which are executed in a multi-threaded
    * context.
    *
-   * @param activeSpan the span which is about to be activated
+   * @param activeSpan the span which is about to be deactivated
    * @param previouslyActive the span which has previously been activated
    * @return {@code true}, if the event could be processed, {@code false} if the internal event
    *     queue is full which means the event has been discarded
